@@ -30,7 +30,7 @@ body {
   top: 0;
 }
 
-.container > div {
+.container>div {
   position: absolute;
   left: 0;
   right: 0;
@@ -41,7 +41,7 @@ body {
   font-size: 4.5rem;
 }
 
-.one > img {
+.one>img {
   vertical-align: middle;
   margin-bottom: 10px;
   max-width: 100%;
@@ -120,6 +120,12 @@ body {
   display: inline-block;
   max-width: 100%;
   height: auto;
+}
+
+.lydia-dp {
+  width: 600px !important;
+  height: auto !important;
+  max-width: none !important;
 }
 
 .six .hat {
@@ -263,6 +269,15 @@ body {
     width: 90%;
   }
 
+  .one {
+    font-size: 2.5rem;
+  }
+
+
+  .idea-5 {
+    font-size: 2.5rem !important;
+  }
+
   .four .text-box {
     width: 90%;
   }
@@ -282,7 +297,12 @@ body {
 
   .six .hat {
     width: 50px;
-    top: -20px;
+    top: -50px;
+    left: 150px;
+  }
+
+  .lydia-dp {
+    width: 300px !important;
   }
 
   .wish-hbd {
@@ -298,10 +318,12 @@ body {
     font-weight: lighter;
   }
 }
+
 @keyframes rotate {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
